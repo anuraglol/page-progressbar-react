@@ -1,6 +1,6 @@
 {
-  "name": "page-scroll-progressbar",
-  "version": "1.1.5",
+  "name": "page-scroll-progress",
+  "version": "1.0.0",
   "repository": "https://github.com/kr-anurag/page-progressbar",
   "license": "MIT",
   "main": "dist/index.js",

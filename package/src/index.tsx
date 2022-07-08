@@ -2,7 +2,13 @@ import { useTransform, useViewportScroll } from "framer-motion";
 import React, { FC } from "react";
 import { useEffect, useState } from "react";
 
-const PageProgress: FC = () => {
+interface Props {
+  color?: string;
+}
+
+const PageProgress: FC<Props> = ({ color }) => {
+  const bgColor = color ? color : "#ec4899";
+
   const { scrollYProgress } = useViewportScroll();
   const yRange = useTransform(scrollYProgress, [0, 1], [0, 100]);
 
@@ -20,7 +26,7 @@ const PageProgress: FC = () => {
         height: "4px",
         minWidth: "100vw",
         overflowX: "hidden",
-        backgroundColor: "#ec4899",
+        backgroundColor: bgColor,
         transformOrigin: "left",
         position: "fixed",
         top: 0,

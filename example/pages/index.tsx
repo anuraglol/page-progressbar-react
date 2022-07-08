@@ -1,6 +1,6 @@
 import { Box } from '@chakra-ui/react';
 import type { NextPage } from 'next';
-import PageProgress from 'page-scroll-progressbar';
+import PageProgress from 'page-scroll-progress';
 
 const ProgressPage: NextPage = () => {
     return (

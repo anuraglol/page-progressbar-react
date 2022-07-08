@@ -14,7 +14,7 @@
         "framer-motion": "^6.2.8",
         "next": "latest",
         "nextjs-progressbar": "^0.0.14",
-        "page-scroll-progressbar": "^1.1.5",
+        "page-scroll-progress": "^1.0.0",
         "react": "^17.0.2",
         "react-dom": "^17.0.2"
     },
