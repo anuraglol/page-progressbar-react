@@ -1,12 +1,24 @@
 {
-  "name": "@imanuraglol/page-progressbar",
-  "version": "1.0.0",
+  "name": "page-scroll-progressbar",
+  "version": "1.1.5",
   "repository": "https://github.com/kr-anurag/page-progressbar",
   "license": "MIT",
-  "main": "index.ts",
+  "main": "dist/index.js",
   "author": "Anurag <kr.anurag24@gmail.com>",
-  "dependencies": {
-    "framer-motion": "^6.4.3",
+  "scripts": {
+    "build": "tsup & tsc -p tsconfig.json",
+    "prepublish": "npm run build"
+  },
+  "types": "dist/index.d.ts",
+  "peerDependencies": {
     "react": "^18.2.0"
+  },
+  "dependencies": {
+    "framer-motion": "^6.4.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "tsup": "^6.1.3"
   }
 }
