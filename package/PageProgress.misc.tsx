@@ -1,8 +1,8 @@
 import { useTransform, useViewportScroll } from "framer-motion";
-import React from "react";
+import React, { FC } from "react";
 import { useEffect, useState } from "react";
 
-function Custom() {
+const PageProgress: FC = () => {
   const { scrollYProgress } = useViewportScroll();
   const yRange = useTransform(scrollYProgress, [0, 1], [0, 100]);
 
@@ -20,7 +20,7 @@ function Custom() {
         height: "4px",
         minWidth: "100vw",
         overflowX: "hidden",
-        backgroundColor: "#fff",
+        backgroundColor: "#ec4899",
         transformOrigin: "left",
         position: "fixed",
         top: 0,
@@ -28,6 +28,6 @@ function Custom() {
       }}
     ></div>
   );
-}
+};
 
-export { Custom };
+export default PageProgress;

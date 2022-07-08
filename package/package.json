@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "repository": "https://github.com/kr-anurag/page-progressbar",
   "license": "MIT",
+  "main": "index.ts",
   "author": "Anurag <kr.anurag24@gmail.com>",
   "dependencies": {
     "framer-motion": "^6.4.3",

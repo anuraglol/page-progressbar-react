@@ -22,7 +22,7 @@ const ProgressPage: NextPage = () => {
                     height: '4px',
                     minWidth: '100vw',
                     overflowX: 'hidden',
-                    backgroundColor: '#fff',
+                    backgroundColor: '#ec4899',
                     transformOrigin: 'left',
                     position: 'fixed',
                     top: 0,
