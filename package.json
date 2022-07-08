@@ -1,8 +1,8 @@
 {
-  "name": "playin--around-w-framer-motion",
+  "name": "page-progressbar",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/kr-anurag/playin--around-w-framer-motion.git",
+  "repository": "https://github.com/kr-anurag/page-progressbar.git",
   "author": "Anurag <kr.anurag24@gmail.com>",
   "license": "MIT"
 }

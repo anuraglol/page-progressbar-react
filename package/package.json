@@ -1,8 +1,9 @@
 {
-  "name": "package",
+  "name": "@imanuraglol/page-progressbar",
   "version": "1.0.0",
-  "main": "index.js",
+  "repository": "https://github.com/kr-anurag/page-progressbar",
   "license": "MIT",
+  "author": "Anurag <kr.anurag24@gmail.com>",
   "dependencies": {
     "framer-motion": "^6.4.3",
     "react": "^18.2.0"
