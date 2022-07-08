@@ -1,5 +1,5 @@
 import { Box } from '@chakra-ui/react';
-import { motion, useTransform, useViewportScroll } from 'framer-motion';
+import { useTransform, useViewportScroll } from 'framer-motion';
 import type { NextPage } from 'next';
 import { useEffect, useState } from 'react';
 
@@ -17,17 +17,18 @@ const ProgressPage: NextPage = () => {
 
     return (
         <Box minH="1000vh" w="full" bg="#010101">
-            <motion.div>
-                <Box
-                    pos="fixed"
-                    top="0"
-                    h="1"
-                    w="full"
-                    bg="pink.600"
-                    transform={`scaleX(${progress}%)`}
-                    transformOrigin="left"
-                ></Box>
-            </motion.div>
+            <div
+                style={{
+                    height: '4px',
+                    minWidth: '100vw',
+                    overflowX: 'hidden',
+                    backgroundColor: '#fff',
+                    transformOrigin: 'left',
+                    position: 'fixed',
+                    top: 0,
+                    transform: `scaleX(${progress}%)`,
+                }}
+            ></div>
         </Box>
     );
 };
