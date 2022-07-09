@@ -17,7 +17,7 @@ const PageProgressBar: FC<Props> = ({ color, height }) => {
   const [progress, setProgress] = useState<number>(0);
 
   useEffect(() => {
-    yRange.onChange((v) => {
+    yRange.onChange((v: number) => {
       setProgress(v);
     });
   }, [yRange]);
