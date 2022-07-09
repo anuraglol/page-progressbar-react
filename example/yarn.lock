@@ -2770,9 +2770,9 @@ p-try@^1.0.0:
   resolved "https://registry.yarnpkg.com/p-try/-/p-try-1.0.0.tgz#cbc79cdbaf8fd4228e13f621f2b1a237c1b207b3"
   integrity sha1-y8ec26+P1CKOE/Yh8rGiN8GyB7M=
 
-page-scroll-progress@^1.0.0:
+react-scroll-progress@^1.0.0:
   version "1.0.0"
-  resolved "https://registry.yarnpkg.com/page-scroll-progress/-/page-scroll-progress-1.0.0.tgz#ea25fb9caf449571fac1d274035e4b50d60a4efa"
+  resolved "https://registry.yarnpkg.com/react-scroll-progress/-/react-scroll-progress-1.0.0.tgz#ea25fb9caf449571fac1d274035e4b50d60a4efa"
   integrity sha512-uQdo3Q5K7KDzJb2zal5TXFIMnBCgVO+GWp1cPib4/tJqrBqW4TUWqCLpWNm/ZPP9r82iguU6fA+0yPdm0rUvBg==
   dependencies:
     framer-motion "^6.4.3"
