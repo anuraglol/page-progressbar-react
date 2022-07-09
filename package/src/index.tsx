@@ -4,10 +4,12 @@ import { useEffect, useState } from "react";
 
 interface Props {
   color?: string;
+  height?: number;
 }
 
-const PageProgress: FC<Props> = ({ color }) => {
-  const bgColor = color ? color : "#ec4899";
+const PageProgressBar: FC<Props> = ({ color, height }) => {
+  const bgColor: string = color ? color : "#ec4899";
+  const heightStyle = height ? height + "px" : "4px";
 
   const { scrollYProgress } = useViewportScroll();
   const yRange = useTransform(scrollYProgress, [0, 1], [0, 100]);
@@ -23,7 +25,7 @@ const PageProgress: FC<Props> = ({ color }) => {
   return (
     <div
       style={{
-        height: "4px",
+        height: heightStyle,
         minWidth: "100vw",
         overflowX: "hidden",
         backgroundColor: bgColor,
@@ -36,4 +38,4 @@ const PageProgress: FC<Props> = ({ color }) => {
   );
 };
 
-export default PageProgress;
+export default PageProgressBar;
