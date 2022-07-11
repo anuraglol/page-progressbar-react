@@ -1,6 +1,6 @@
 {
-  "name": "page-scroll-progress",
-  "version": "1.0.0",
+  "name": "react-scroll-progressbar",
+  "version": "1.1.0",
   "repository": "https://github.com/kr-anurag/page-progressbar",
   "license": "MIT",
   "main": "dist/index.js",
@@ -19,6 +19,7 @@
   "devDependencies": {
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
-    "tsup": "^6.1.3"
+    "tsup": "^6.1.3",
+    "typescript": "^4.7.4"
   }
 }

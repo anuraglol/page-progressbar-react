@@ -7,9 +7,9 @@
 ## Installation
 
 ```
-npm i react-scroll-progress
+npm i react-scroll-progressbar
             or
-yarn add react-scroll-progress
+yarn add react-scroll-progressbar
 ```
 
 ## Usage
