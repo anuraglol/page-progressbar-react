@@ -1,4 +1,4 @@
-# ⚡ React Scroll ProgressBar
+# ⚡ Page Progressbar React
 
 💡 A Simple progressbar based on scroll state of a page using [framer-motion](https://www.framer.com/motion/)
 
@@ -7,9 +7,9 @@
 ## Installation
 
 ```
-npm i react-scroll-progressbar
+npm i page-progressbar-react
             or
-yarn add react-scroll-progressbar
+yarn add page-progressbar-react
 ```
 
 ## Usage
@@ -17,14 +17,14 @@ yarn add react-scroll-progressbar
 You can import the `PageProgressBar` component from the package after installing.
 
 ```jsx
-import PageProgressBar from "react-scroll-progressbar";
+import PageProgressBar from "page-progressbar-react";
 ```
 
 After importing, add `<PageProgressBar />` to your desired page.
 
 ```jsx
 -pages / index.js;
-import PageProgressBar from "react-scroll-progressbar";
+import PageProgressBar from "page-progressbar-react";
 
 export default function HomePage() {
   return (
