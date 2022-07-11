@@ -2,6 +2,7 @@
   uses: JS-DevTools/npm-publish@v1
 
 on: push
+package: ./src/package.json
 
 jobs:
   publish:
