@@ -7,10 +7,7 @@ interface Props {
   height?: number;
 }
 
-const PageProgressBar: FC<Props> = ({ color, height }) => {
-  const bgColor: string = color ? color : "#ec4899";
-  const heightStyle = height ? height + "px" : "4px";
-
+const PageProgressBar: FC<Props> = ({ color = "#ec4899", height = 4 }) => {
   const { scrollYProgress } = useViewportScroll();
   const yRange = useTransform(scrollYProgress, [0, 1], [0, 100]);
 
@@ -23,18 +20,20 @@ const PageProgressBar: FC<Props> = ({ color, height }) => {
   }, [yRange]);
 
   return (
-    <div
-      style={{
-        height: heightStyle,
-        minWidth: "100vw",
-        overflowX: "hidden",
-        backgroundColor: bgColor,
-        transformOrigin: "left",
-        position: "fixed",
-        top: 0,
-        transform: `scaleX(${progress}%)`,
-      }}
-    ></div>
+    <>
+      <div
+        style={{
+          height: `${height}px`,
+          minWidth: "100vw",
+          overflowX: "hidden",
+          backgroundColor: color,
+          transformOrigin: "left",
+          position: "fixed",
+          top: 0,
+          transform: `scaleX(${progress}%)`,
+        }}
+      ></div>
+    </>
   );
 };
 
