@@ -1,8 +1,8 @@
-# ⚡ Page Progressbar React
+# ⚡ [Page Progressbar React](https://www.npmjs.com/package/page-progressbar-react)
 
 💡 A Simple progressbar based on scroll state of a page using [framer-motion](https://www.framer.com/motion/)
 
-👀 Demo (https://page-progressbar.vercel.app/)
+👀 Demo (https://page-progressbar-react.vercel.app/)
 
 ## Installation
 
